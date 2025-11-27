@@ -40,9 +40,92 @@ body {
 
 /* Botão VIP (Instagram) */
 .destaque {
-    background-color: #3c0f63;
-    color: #a18aff;
-    border: 2px solid #6ef2d6;
-    box-shadow: 0 0 12px #6ef2d6; 
+    background: linear-gradient(135deg, #5fffd8, #c29fff);
+    color: #1A0033;
+    border: 2px solid #c29fff65;
+    box-shadow: 0 0 10px #c29fff65; 
     transform: scale(1.05);
 }
+
+.campo-texto {
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: none;
+}
+
+form button {
+width: 95%;
+padding: 12px;
+margin-top: 10px;
+font-size: 16px;
+cursor: pointer;
+background: linear-gradient(135deg, #9f70ff, #5fffd8);
+color: #1a0033;
+border: none;
+border-radius: 8px;
+font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 14px #5fffd8a6;
+}
+
+.btn-voltar {
+display: inline-block;
+margin-top: 25px;
+padding: 8px 20px;
+border: 1px solid rgba(255,255,255, 0.5);
+color: rgba(255,255,255, 0.8);
+text-decoration: none;
+border-radius: 20px;
+font-size: 14px;
+transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.erro {
+color: #ff4444;
+background: #330000;
+padding: 10px;
+border-radius: 5px;
+}
+
+.sucesso {
+color: #00ff88;
+background: #003311;
+padding: 10px;
+border-radius: 5px;
+}
+
+.area-contato {
+margin-top: 30px;
+border-top: 1px solid #333;
+padding-top: 20px;
+}
+
+.btn-msg {
+display: inline-block;
+background-color: #0cc4d2;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.btn-msg:hover {
+background-color: #9222f5;
+transform: scale(1.1);
+}
+
+
+

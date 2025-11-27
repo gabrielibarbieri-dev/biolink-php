@@ -29,6 +29,11 @@ $imagem = "https://plus.unsplash.com/premium_photo-1700124162812-1d5d29087b81?q=
 <h1> <?php echo $nome; ?> </h1>
 <p> <?php echo $bio; ?> </p>
 <div class="lista-links">
+
+<div class="area-contato">
+<a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
+</div>
+
 <?php
 foreach ($links as $texto => $url) {
 $classe_extra = "";
@@ -36,12 +41,10 @@ if ($texto === $vip) {
     $classe_extra = "destaque";
 }
 
-// DESAFIO: Se o texto for "WhatsApp" (ou outro que você queira), mude a variável $classe_extra para "destaque". Escreva o IF aqui:
-
-// O PHP constrói o botão HTML
 echo "<a href='$url' class='btn $classe_extra' target='_blank'>$texto</a>";
 }
 ?>
 </div>
+
 </body>
 </html>
