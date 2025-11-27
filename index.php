@@ -10,8 +10,8 @@ $links = [
 $vip = "Instagram";
 
 // --- DADOS DO PERFIL (PREENCHA COM SEUS DADOS) ---
-$nome = "Gabrieli";
-$bio = "i love girassois<3";
+$nome = "Gabi Barbieri";
+$bio = "🌻";
 $imagem = "https://plus.unsplash.com/premium_photo-1700124162812-1d5d29087b81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; // Pegue o link da SUA foto.
 ?>
 <!DOCTYPE html>

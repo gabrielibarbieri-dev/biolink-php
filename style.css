@@ -1,0 +1,48 @@
+body {
+    background-color: #a18aff;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Container central */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Foto de perfil redondinha */
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid #6ef2d6;
+    box-shadow: 0 0 12px #ffb3d9;
+}
+
+/* Botões padrão */
+.btn {
+    display: block;
+    background-color: #3c0f63;
+    color: #dffff6;
+    padding: 15px;
+    margin: 12px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.04);
+}
+
+/* Botão VIP (Instagram) */
+.destaque {
+    background-color: #3c0f63;
+    color: #a18aff;
+    border: 2px solid #6ef2d6;
+    box-shadow: 0 0 12px #6ef2d6; 
+    transform: scale(1.05);
+}
